@@ -1,0 +1,14 @@
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\bin\Debug\net8.0\problemaB.exe
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\bin\Debug\net8.0\problemaB.deps.json
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\bin\Debug\net8.0\problemaB.runtimeconfig.json
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\bin\Debug\net8.0\problemaB.dll
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\bin\Debug\net8.0\problemaB.pdb
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.AssemblyInfoInputs.cache
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.AssemblyInfo.cs
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.dll
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\refint\problemaB.dll
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.pdb
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\problemaB.genruntimeconfig.cache
+C:\Users\Lucas\Documents\PROJETOS\LINKED\problemaB\obj\Debug\net8.0\ref\problemaB.dll
