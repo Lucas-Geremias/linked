@@ -1,24 +1,43 @@
-﻿int  i, treze, quatro;
+﻿using System;
 
-    Console.WriteLine("Numero do andar: ");
-    Console.ReadLine();
-
-    for (i = 0; i < 1080; i++)
+class Program
+{
+    static void Main(string[] args)
     {
-      int numeroAndar;
-        treze = ProcuraNumero(13, numeroAndar);
+        Console.WriteLine("Informe o número do andar:");
+        long andar = long.Parse(Console.ReadLine());
 
-        quatro = ProcuraNumero(4, numeroAndar);
-
-        if ((quatro == 1) || (treze == 1))
-        {
-            numeroAndar += 1;
-        }
+        long numeroAtribuido = CalcularNumeroAtribuido(andar);
+        Console.WriteLine($"O número atribuído ao {andar}-ésimo andar é: {numeroAtribuido}");
     }
 
-int ProcuraNumero(int v, int numeroAndar)
-{
-    throw new NotImplementedException();
-}
+    static long CalcularNumeroAtribuido(long andar)
+    {
+        long contador = 0;
+        long numeroAtual = 0;
 
-Console.WriteLine("Novo numero do andar: ", numeroAndar);
+        while (contador < andar)
+        {
+            numeroAtual++;
+
+            if (!ContemDigito4OuSequencia13(numeroAtual))
+            {
+                contador++;
+            }
+        }
+
+        return numeroAtual;
+    }
+
+    static bool ContemDigito4OuSequencia13(long numero)
+    {
+        string numeroString = numero.ToString();
+
+        if (numeroString.Contains("4") || numeroString.Contains("13"))
+        {
+            return true;
+        }
+
+        return false;
+    }
+}

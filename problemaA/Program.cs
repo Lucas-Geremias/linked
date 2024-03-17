@@ -1,16 +1,16 @@
-﻿
+﻿Console.WriteLine("Informe a largura do tabuleiro:");
+int larguraTabuleiro = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Informe a Largura do tabuleiro");
-int valorReiLargura = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Informe o comprimento do tabuleiro");
-int valorReicomprinmento = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Informe o comprimento do tabuleiro:");
+int comprimentoTabuleiro = int.Parse(Console.ReadLine());
 
-if(valorReicomprinmento == 3 && valorReiLargura == 3)
+int maxReis = CalcularMaxReis(larguraTabuleiro, comprimentoTabuleiro);
+
+Console.WriteLine($"Número máximo de reis que podem ser colocados sem se atacarem: {maxReis}");
+int CalcularMaxReis(int largura, int comprimento)
 {
-    Console.WriteLine("Maximo de reis possiveis 4");
+    int numerosCasas = largura * comprimento;
+
+    return numerosCasas / 2;
 }
-if(valorReicomprinmento == 10 && valorReiLargura == 10)
-{
-    Console.WriteLine("Maximo de reis possiveis 25");
-    
-}
+

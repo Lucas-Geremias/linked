@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
+    "/Users/lucas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Documents\\PROJETOS\\LINKED\\problemaE\\problemaE.csproj",
+      "projectUniqueName": "/Users/lucas/Documents/linked/problemaE/problemaE.csproj",
       "projectName": "problemaE",
-      "projectPath": "C:\\Users\\Lucas\\Documents\\PROJETOS\\LINKED\\problemaE\\problemaE.csproj",
-      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Documents\\PROJETOS\\LINKED\\problemaE\\obj\\",
+      "projectPath": "/Users/lucas/Documents/linked/problemaE/problemaE.csproj",
+      "packagesPath": "/Users/lucas/.nuget/packages/",
+      "outputPath": "/Users/lucas/Documents/linked/problemaE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/lucas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.1/libexec/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
